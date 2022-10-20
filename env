@@ -1,0 +1,36 @@
+NODE_ENV=production
+PORT=8089
+secret=54073273242933347
+tokenExpire=3600
+
+#===============================================
+# database connection
+#===============================================
+    DB='pms_db'
+    HOST='localhost'
+    USER='postgres'
+    PASSWORD='password'
+    dialect='postgres'
+    pool_max=5
+    pool_min=0
+    pool_acquire=30000
+    pool_idle=10000
+
+
+#===============================================
+# file path
+#===============================================
+# logo_path='../storage-files/logo/'
+    logo_path='../library-connect/storage-files/logo/'
+    judgement_file_path='../storage-files/judgement/files/'
+ 
+
+    
+#===============================================
+# Mail Trap
+#===============================================
+    Mail_Host='smtp.mailtrap.io'
+    Mail_Port=2525
+    Mail_User='307cc7512447a6'
+    Mail_Pass='4159d6bf0a25a4'
+
